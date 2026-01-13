@@ -4,6 +4,8 @@
 ---
 > This Also helps Individuals/Clients to get their work done at Low-Cost !
 
+> Check the `Hackathon-Files` Folder to see the Videos
+
 ## Frontend Tech Stack (Aryan Sinha): 
 > Github Profile Link: [Aryan Sinha](https://github.com/Aryansinha2811)
 1. React.js with TypeScript 
@@ -22,4 +24,11 @@
 > Our Theme is : **Open Innovation: Edtech and Employement**
 >
 >
-# Video Here Below: 
+## Landing Page Image: 
+![Landing Page](../Gradium-JIIT/Hackathon-Files/Landing-Page.png)
+
+## Client Page Image: 
+![Client Page](../Gradium-JIIT/Hackathon-Files/Client-Page.png)
+
+## Student Page Image: 
+![Student Page](../Gradium-JIIT/Hackathon-Files/Student-Page.png)
