@@ -25,10 +25,10 @@
 >
 >
 ## Landing Page Image: 
-![Landing Page](../Gradium-JIIT/Hackathon-Files/Landing-Page.png)
+![Landing Page](https://raw.githubusercontent.com/Aryansinha2811/Gradium-JIIT/refs/heads/master/Hackathon-Files/Landing-Page.png)
 
 ## Client Page Image: 
-![Client Page](../Gradium-JIIT/Hackathon-Files/Client-Page.png)
+![Client Page](https://raw.githubusercontent.com/Aryansinha2811/Gradium-JIIT/refs/heads/master/Hackathon-Files/Client-Page.png)
 
 ## Student Page Image: 
-![Student Page](../Gradium-JIIT/Hackathon-Files/Student-Page.png)
+![Student Page](https://raw.githubusercontent.com/Aryansinha2811/Gradium-JIIT/refs/heads/master/Hackathon-Files/Student-Page.png)
