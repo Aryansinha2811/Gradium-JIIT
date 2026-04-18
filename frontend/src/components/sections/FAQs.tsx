@@ -104,7 +104,7 @@ export default function FAQ() {
                                         {faq.question}
                                     </span>
                                     <ChevronDown
-                                        className={`w-5 h-5 text-white/60 flex-shrink-0 transition-transform duration-300 ${
+                                        className={`w-5 h-5 text-white/60 shrink-0 transition-transform duration-300 ${
                                             openId === faq.id ? 'rotate-180 text-blue-400' : ''
                                         }`}
                                     />

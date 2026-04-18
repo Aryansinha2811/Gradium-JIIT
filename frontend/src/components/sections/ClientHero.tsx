@@ -16,7 +16,7 @@ export default function ClientHero() {
 
                             <h1 className="text-5xl md:text-6xl lg:text-5xl font-bold text-white leading-tight">
                                 Hire Talented{" "}
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-600">
+                                <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 via-cyan-400 to-blue-600">
                                     Students
                                 </span>
                                 {" "}For Your Projects
@@ -31,7 +31,7 @@ export default function ClientHero() {
                             {/* Value Props */}
                             <div className="space-y-4">
                                 <div className="flex items-start gap-3">
-                                    <div className="w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0 mt-1">
+                                    <div className="w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center shrink-0 mt-1">
                                         <svg className="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20">
                                             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                                         </svg>
@@ -43,7 +43,7 @@ export default function ClientHero() {
                                 </div>
 
                                 <div className="flex items-start gap-3">
-                                    <div className="w-6 h-6 rounded-full bg-blue-500/20 flex items-center justify-center flex-shrink-0 mt-1">
+                                    <div className="w-6 h-6 rounded-full bg-blue-500/20 flex items-center justify-center shrink-0 mt-1">
                                         <svg className="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
                                             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                                         </svg>
@@ -55,7 +55,7 @@ export default function ClientHero() {
                                 </div>
 
                                 <div className="flex items-start gap-3">
-                                    <div className="w-6 h-6 rounded-full bg-purple-500/20 flex items-center justify-center flex-shrink-0 mt-1">
+                                    <div className="w-6 h-6 rounded-full bg-purple-500/20 flex items-center justify-center shrink-0 mt-1">
                                         <svg className="w-4 h-4 text-purple-400" fill="currentColor" viewBox="0 0 20 20">
                                             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                                         </svg>
@@ -86,9 +86,9 @@ export default function ClientHero() {
                         <div className="relative lg:block hidden">
                             <div className="relative">
                                 {/* Card 1 - Student Profile */}
-                                <div className="absolute top-0 right-0 bg-gradient-to-br from-gray-800 to-gray-900 border border-white/10 rounded-2xl p-6 shadow-2xl backdrop-blur w-75 transform rotate-2 hover:rotate-0 transition-transform">
+                                <div className="absolute top-0 right-0 bg-linear-to-br from-gray-800 to-gray-900 border border-white/10 rounded-2xl p-6 shadow-2xl backdrop-blur w-75 transform rotate-2 hover:rotate-0 transition-transform">
                                     <div className="flex items-center gap-3 mb-8">
-                                        <div className="w-18 h-12 rounded-full bg-gradient-to-r from-blue-400 to-blue-600"></div>
+                                        <div className="w-18 h-12 rounded-full bg-linear-to-r from-blue-400 to-blue-600"></div>
                                         <div>
                                             <p className="text-white font-semibold">Aryan Sinha</p>
                                             <p className="text-white/60 text-xs">Web Developer</p>
@@ -110,7 +110,7 @@ export default function ClientHero() {
                                 </div>
 
                                 {/* Card 2 - Project Posted */}
-                                <div className="absolute bottom-10 left-0 bg-gradient-to-br from-gray-800 to-gray-900 border border-white/10 rounded-2xl p-6 shadow-2xl backdrop-blur w-72 transform -rotate-2 hover:rotate-0 transition-transform">
+                                <div className="absolute bottom-10 left-0 bg-linear-to-br from-gray-800 to-gray-900 border border-white/10 rounded-2xl p-6 shadow-2xl backdrop-blur w-72 transform -rotate-2 hover:rotate-0 transition-transform">
                                     <div className="flex items-center justify-between mb-4">
                                         <span className="text-green-400 text-xs font-semibold bg-green-500/20 px-3 py-1 rounded-full">
                                             5 Proposals
@@ -128,9 +128,9 @@ export default function ClientHero() {
                                 </div>
 
                                 {/* Center circle */}
-                                <div className="relative z-10 mx-auto w-80 h-80 rounded-full bg-gradient-to-br from-blue-500/20 to-purple-500/20 border border-white/10 flex items-center justify-center backdrop-blur">
+                                <div className="relative z-10 mx-auto w-80 h-80 rounded-full bg-linear-to-br from-blue-500/20 to-purple-500/20 border border-white/10 flex items-center justify-center backdrop-blur">
                                     <div className="text-center">
-                                        <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center">
+                                        <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-linear-to-br from-blue-500 to-purple-500 flex items-center justify-center">
                                             <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                             </svg>

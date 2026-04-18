@@ -147,7 +147,7 @@ function ProfileCard({
                     {/* Avatar */}
                     <div className="flex justify-center">
                         <div className="relative">
-                            <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 opacity-75 blur-sm group-hover:opacity-100 transition-opacity duration-300"></div>
+                            <div className="absolute -inset-1 rounded-full bg-linear-to-r from-blue-500 to-purple-500 opacity-75 blur-sm group-hover:opacity-100 transition-opacity duration-300"></div>
                             <img 
                                 src={avatar} 
                                 alt={name}

@@ -28,7 +28,7 @@ export default function HowItWorks() {
                 <div className="grid grid-cols-3 gap-8 relative">
                     
                     {/* Connecting Line */}
-                    <div className="absolute top-32 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-blue-500/20 to-transparent" style={{ zIndex: 0 }} />
+                    <div className="absolute top-32 left-0 right-0 h-0.5 bg-linear-to-r from-transparent via-blue-500/20 to-transparent" style={{ zIndex: 0 }} />
 
                     <StepCard
                         icon={<User className="w-8 h-8" />}
@@ -84,7 +84,7 @@ function StepCard({ icon, title, description, stepNumber }: StepCardProps) {
                 </div>
 
                 {/* Mock UI Preview */}
-                <div className="mb-6 rounded-lg bg-white/5 border border-white/10 p-4 min-h-[140px]">
+                <div className="mb-6 rounded-lg bg-white/5 border border-white/10 p-4 min-h-35">
                     {stepNumber === "1" && (
                         <div className="space-y-3">
                             <div className="flex gap-2">
@@ -107,7 +107,7 @@ function StepCard({ icon, title, description, stepNumber }: StepCardProps) {
                                 <span className="text-white/50 text-xs">Resume.pdf • 80% </span>
                             </div>
                             <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                                <div className="h-full w-4/5 bg-gradient-to-r from-green-400 to-green-500 rounded-full"></div>
+                                <div className="h-full w-4/5 bg-linear-to-r from-green-400 to-green-500 rounded-full"></div>
                             </div>
                             <div className="flex gap-2 justify-end">
                                 <div className="w-5 h-5 bg-blue-500/80 rounded flex items-center justify-center">
@@ -126,7 +126,7 @@ function StepCard({ icon, title, description, stepNumber }: StepCardProps) {
                     {stepNumber === "3" && (
                         <div className="space-y-3">
                             <div className="flex items-center gap-3">
-                                <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <div className="w-10 h-10 bg-linear-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center shrink-0">
                                     <span className="text-white text-sm font-bold">$ 10</span>
                                 </div>
                                 <div className="flex-1">

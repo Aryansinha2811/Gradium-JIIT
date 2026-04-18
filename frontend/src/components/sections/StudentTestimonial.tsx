@@ -46,7 +46,7 @@ export default function SuccessStories() {
                 <div className="text-center mb-12">
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
                         Real Students,{" "}
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-600">
+                        <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 via-cyan-400 to-blue-600">
                             Real Success
                         </span>
                     </h2>
@@ -60,7 +60,7 @@ export default function SuccessStories() {
                     {testimonials.map((story, index) => (
                         <div
                             key={index}
-                            className="group relative bg-gradient-to-br from-white/5 to-white/10 backdrop-blur border border-white/10 rounded-2xl p-6 hover:border-blue-500/50 transition-all duration-300"
+                            className="group relative bg-linear-to-br from-white/5 to-white/10 backdrop-blur border border-white/10 rounded-2xl p-6 hover:border-blue-500/50 transition-all duration-300"
                         >
                             {/* Profile Section */}
                             <div className="flex items-start gap-4 mb-6">
@@ -131,13 +131,13 @@ export default function SuccessStories() {
                             </div>
 
                             {/* Decorative gradient overlay on hover */}
-                            <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-blue-500/0 to-cyan-500/0 group-hover:from-blue-500/5 group-hover:to-cyan-500/5 transition-all duration-300 pointer-events-none"></div>
+                            <div className="absolute inset-0 rounded-2xl bg-linear-to-br from-blue-500/0 to-cyan-500/0 group-hover:from-blue-500/5 group-hover:to-cyan-500/5 transition-all duration-300 pointer-events-none"></div>
                         </div>
                     ))}
                 </div>
 
                 {/* Bottom CTA */}
-                <div className="mt-14 text-center bg-gradient-to-r from-blue-500/10 to-cyan-500/10 border border-blue-500/20 rounded-2xl py-8 mb-2">
+                <div className="mt-14 text-center bg-linear-to-r from-blue-500/10 to-cyan-500/10 border border-blue-500/20 rounded-2xl py-8 mb-2">
                     <h3 className="text-3xl font-bold text-white mb-3">
                         Ready to Write Your Success Story ?
                     </h3>

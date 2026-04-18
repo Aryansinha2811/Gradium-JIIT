@@ -87,7 +87,7 @@ export default function Testimonials() {
                             
                             {/* Video/Image Section */}
                             <div className="relative group cursor-pointer">
-                                <div className="relative rounded-xl overflow-hidden aspect-video bg-gradient-to-br from-blue-500/20 to-purple-500/20">
+                                <div className="relative rounded-xl overflow-hidden aspect-video bg-linear-to-br from-blue-500/20 to-purple-500/20">
                                     {/* Placeholder for video thumbnail */}
                                     <img 
                                         src={currentTestimonial.videoThumbnail} 

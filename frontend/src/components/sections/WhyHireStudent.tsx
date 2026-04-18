@@ -75,7 +75,7 @@ export default function WhyHireStudents() {
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
                         Why Hire{" "}
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-600">
+                        <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 via-cyan-400 to-blue-600">
                             Student Freelancers
                         </span>
                     </h2>
@@ -93,7 +93,7 @@ export default function WhyHireStudents() {
                         >
                             {/* Icon & Stat Badge */}
                             <div className="flex items-start justify-between mb-4">
-                                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-purple-500 to-blue-500 flex items-center justify-center text-white group-hover:scale-110 transition-transform">
+                                <div className="w-14 h-14 rounded-xl bg-linear-to-br from-purple-500 to-blue-500 flex items-center justify-center text-white group-hover:scale-110 transition-transform">
                                     {benefit.icon}
                                 </div>
                                 <div className="text-right">
@@ -115,13 +115,13 @@ export default function WhyHireStudents() {
                             </p>
 
                             {/* Decorative gradient on hover */}
-                            <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-purple-500/0 to-blue-500/0 group-hover:from-purple-500/5 group-hover:to-blue-500/5 transition-all duration-300 pointer-events-none"></div>
+                            <div className="absolute inset-0 rounded-2xl bg-linear-to-br from-purple-500/0 to-blue-500/0 group-hover:from-purple-500/5 group-hover:to-blue-500/5 transition-all duration-300 pointer-events-none"></div>
                         </div>
                     ))}
                 </div>
 
                 {/* Comparison Card */}
-                <div className="bg-gradient-to-br from-white/5 to-white/10 backdrop-blur border border-white/10 rounded-2xl p-8 lg:p-12">
+                <div className="bg-linear-to-br from-white/5 to-white/10 backdrop-blur border border-white/10 rounded-2xl p-8 lg:p-12">
                     <h3 className="text-2xl md:text-3xl font-bold text-white mb-8 text-center">
                         Student Freelancers vs Traditional Agencies
                     </h3>
@@ -129,7 +129,7 @@ export default function WhyHireStudents() {
                     <div className="grid md:grid-cols-3 gap-8">
                         {/* Student Freelancers */}
                         <div className="text-center">
-                            <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center">
+                            <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-linear-to-br from-green-500 to-emerald-500 flex items-center justify-center">
                                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                                 </svg>
@@ -161,7 +161,7 @@ export default function WhyHireStudents() {
 
                         {/* Traditional Agencies */}
                         <div className="text-center">
-                            <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-gray-600 to-gray-700 flex items-center justify-center">
+                            <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-linear-to-br from-gray-600 to-gray-700 flex items-center justify-center">
                                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                                 </svg>

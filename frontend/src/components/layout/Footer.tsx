@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="mt-32 bg-gradient-to-b from-[#1a284b] to-[#0d1429]">
+        <footer className="mt-32 bg-linear-to-b from-[#1a284b] to-[#0d1429]">
             <div className="mx-auto max-w-7xl px-6 pt-20">
 
                 {/* Top Grid */}

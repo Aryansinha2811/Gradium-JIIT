@@ -111,7 +111,7 @@ export default function Gigs() {
 
                 <div className="flex gap-8">
                     {/* Left Sidebar - Filters */}
-                    <aside className="hidden lg:block w-64 flex-shrink-0 border-r border-white/10 pr-8">
+                    <aside className="hidden lg:block w-64 shrink-0 border-r border-white/10 pr-8">
                         <div className="sticky top-24 space-y-6">
                             
                             {/* Categories */}
@@ -166,7 +166,7 @@ export default function Gigs() {
                                 <select
                                     value={sortBy}
                                     onChange={(e) => setSortBy(e.target.value)}
-                                    className="w-[180px] rounded-lg border border-white/10 bg-black/40 px-2 py-2.5 text-sm text-white outline-none transition focus:border-blue-500"
+                                    className="w-45 rounded-lg border border-white/10 bg-black/40 px-2 py-2.5 text-sm text-white outline-none transition focus:border-blue-500"
                                 >
                                     <option value="newest">Newest First</option>
                                     <option value="price-low">Price: Low to High</option>
@@ -200,7 +200,7 @@ export default function Gigs() {
                                     >
                                         <div className="flex gap-5">
                                             {/* Image */}
-                                            <div className="relative w-48 h-32 flex-shrink-0 rounded-lg overflow-hidden">
+                                            <div className="relative w-48 h-32 shrink-0 rounded-lg overflow-hidden">
                                                 <img
                                                     src={gig.image}
                                                     alt={gig.title}

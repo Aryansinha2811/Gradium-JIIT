@@ -21,7 +21,7 @@ export default function StudentsPage() {
 
                             <h1 className="text-4xl md:text-6xl lg:text-5xl font-bold text-white leading-tight">
                                 Turn Your Skills Into{" "}
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-600">
+                                <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 via-cyan-400 to-blue-600">
                                     Income
                                 </span>
                                 {" "}While Studying
@@ -98,9 +98,9 @@ export default function StudentsPage() {
                         <div className="relative lg:block hidden">
                             <div className="relative">
                                 {/* Card 1 - Floating */}
-                                <div className="absolute top-0 right-0 bg-gradient-to-br from-gray-800 to-gray-900 border border-white/10 rounded-2xl p-6 shadow-2xl backdrop-blur w-64 transform rotate-3 hover:rotate-0 transition-transform">
+                                <div className="absolute top-0 right-0 bg-linear-to-br from-gray-800 to-gray-900 border border-white/10 rounded-2xl p-6 shadow-2xl backdrop-blur w-64 transform rotate-3 hover:rotate-0 transition-transform">
                                     <div className="flex items-center gap-3 mb-4">
-                                        <div className="w-10 h-10 rounded-full bg-gradient-to-r from-green-400 to-green-600"></div>
+                                        <div className="w-10 h-10 rounded-full bg-linear-to-r from-green-400 to-green-600"></div>
                                         <div>
                                             <p className="text-white font-semibold text-sm">New Gig Available</p>
                                             <p className="text-white/60 text-xs">Website Design</p>
@@ -114,9 +114,9 @@ export default function StudentsPage() {
                                 </div>
 
                                 {/* Card 2 - Floating */}
-                                <div className="absolute bottom-10 left-0 bg-gradient-to-br from-gray-800 to-gray-900 border border-white/10 rounded-2xl p-6 shadow-2xl backdrop-blur w-60 transform -rotate-3 hover:rotate-0 transition-transform">
+                                <div className="absolute bottom-10 left-0 bg-linear-to-br from-gray-800 to-gray-900 border border-white/10 rounded-2xl p-6 shadow-2xl backdrop-blur w-60 transform -rotate-3 hover:rotate-0 transition-transform">
                                     <div className="flex items-center gap-3 mb-3">
-                                        <div className="w-10 h-10 rounded-full bg-gradient-to-r from-blue-400 to-blue-600 flex items-center justify-center text-white font-bold">
+                                        <div className="w-10 h-10 rounded-full bg-linear-to-r from-blue-400 to-blue-600 flex items-center justify-center text-white font-bold">
                                             ✓
                                         </div>
                                         <div>
@@ -129,9 +129,9 @@ export default function StudentsPage() {
                                 </div>
 
                                 {/* Center illustration placeholder */}
-                                <div className="relative z-10 mx-auto w-80 h-80 rounded-full bg-gradient-to-br from-blue-500/20 to-purple-500/20 border border-white/10 flex items-center justify-center backdrop-blur">
+                                <div className="relative z-10 mx-auto w-80 h-80 rounded-full bg-linear-to-br from-blue-500/20 to-purple-500/20 border border-white/10 flex items-center justify-center backdrop-blur">
                                     <div className="text-center">
-                                        <div className="w-28 h-28 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center">
+                                        <div className="w-28 h-28 mx-auto mb-4 rounded-full bg-linear-to-br from-blue-500 to-purple-500 flex items-center justify-center">
                                             <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                                             </svg>

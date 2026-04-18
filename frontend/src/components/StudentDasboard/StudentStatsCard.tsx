@@ -19,7 +19,7 @@ export default function StudentDashboardStatsCard({
 }: StatsCardProps) {
     if (featured) {
         return (
-            <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 p-6 border border-blue-500/30">
+            <div className="relative overflow-hidden rounded-2xl bg-linear-to-br from-blue-600 to-blue-800 p-6 border border-blue-500/30">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-16 translate-x-16"></div>
                 <div className="relative">
                     <div className="flex items-center justify-between mb-4">
