@@ -1,7 +1,6 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { loginUser } from "../services/auth.service"
-import Google from "../assets/Banner/Google.png"
 
 interface LoginModalProps {
     isOpen: boolean
@@ -49,10 +48,10 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
         }
     }
 
-    const handleGoogleAuth = () => {
-        // Add your Google OAuth logic here
-        console.log("Google authentication clicked")
-    }
+    // const handleGoogleAuth = () => {
+    //     // Add your Google OAuth logic here
+    //     console.log("Google authentication clicked")
+    // }
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
         setFormData({
@@ -64,13 +63,13 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
     return (
         <div 
             onClick={onClose}
-            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 backdrop-blur-sm p-4"
+            className="fixed inset-0 z-100 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4"
         >
             <div 
                 onClick={(e) => e.stopPropagation()}
                 className="relative w-full max-w-md"
             >
-                <div className="bg-gradient-to-br from-gray-900 to-black border border-white/10 rounded-2xl shadow-2xl p-6">
+                <div className="bg-linear-to-br from-gray-900 to-black border border-white/10 rounded-2xl shadow-2xl p-6">
                     
                     {/* Close Button */}
                     <button

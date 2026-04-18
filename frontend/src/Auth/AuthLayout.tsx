@@ -1,6 +1,5 @@
 import { type ReactNode } from "react"
 import { NavLink } from "react-router-dom"
-import Book from "../assets/Banner/Book.png"
 import Brand from "../assets/Banner/Brand.png"
 
 interface AuthLayoutProps {
@@ -9,11 +8,11 @@ interface AuthLayoutProps {
 
 export default function AuthLayout({ children }: AuthLayoutProps) {
     return (
-        <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 flex">
+        <div className="min-h-screen bg-linear-to-br from-gray-900 via-black to-gray-900 flex">
             {/* Left Side - Banner */}
             <div className="hidden lg:flex lg:w-1/2 relative overflow-hidden">
                 {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20 z-10"></div>
+                <div className="absolute inset-0 bg-linear-to-br from-blue-600/20 to-purple-600/20 z-10"></div>
                 
                 {/* Animated Background */}
                 <div className="absolute inset-0 opacity-30">
@@ -38,7 +37,7 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
                         {/* Features */}
                         <div className="space-y-4">
                             <div className="flex items-start gap-3">
-                                <div className="w-8 h-8 bg-blue-500/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                <div className="w-8 h-8 bg-blue-500/20 rounded-lg flex items-center justify-center shrink-0 mt-1">
                                     <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                                     </svg>
@@ -50,7 +49,7 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
                             </div>
 
                             <div className="flex items-start gap-3">
-                                <div className="w-8 h-8 bg-blue-500/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                <div className="w-8 h-8 bg-blue-500/20 rounded-lg flex items-center justify-center shrink-0 mt-1">
                                     <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                                     </svg>
@@ -62,7 +61,7 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
                             </div>
 
                             <div className="flex items-start gap-3">
-                                <div className="w-8 h-8 bg-blue-500/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                <div className="w-8 h-8 bg-blue-500/20 rounded-lg flex items-center justify-center shrink-0 mt-1">
                                     <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                                     </svg>
